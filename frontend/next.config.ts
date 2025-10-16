@@ -1,10 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Fix workspace root warning for Turbopack
-  turbopack: {
-    root: __dirname,
-  },
+  // Ensure clean production builds
+  output: 'standalone',
   
   // Image optimization
   images: {
