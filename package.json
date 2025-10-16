@@ -1,0 +1,23 @@
+{
+  "name": "discover_property",
+  "version": "1.0.0",
+  "description": "A modern, AI-powered Australian property marketplace built with Next.js and NestJS, featuring intelligent search, personalized recommendations, and automated listing tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:domain": "playwright test tests/competitive-analysis/domain-review.spec.ts",
+    "test:domain:headed": "playwright test tests/competitive-analysis/domain-review.spec.ts --headed",
+    "test:report": "playwright show-report",
+    "mcp:start": "npx @executeautomation/playwright-mcp-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@executeautomation/playwright-mcp-server": "^1.0.6",
+    "@playwright/mcp": "^0.0.42",
+    "@playwright/test": "^1.56.0",
+    "playwright": "^1.56.0"
+  }
+}
