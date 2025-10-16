@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Fix workspace root warning for Turbopack
+  turbopack: {
+    root: __dirname,
+  },
+  
   // Image optimization
   images: {
     domains: ['images.unsplash.com', 'via.placeholder.com'],
