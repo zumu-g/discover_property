@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@executeautomation/playwright-mcp-server"],
+      "env": {
+        "PLAYWRIGHT_HEADLESS": "true",
+        "PLAYWRIGHT_BROWSER": "chromium"
+      }
+    }
+  },
+  "tools": {
+    "playwright": {
+      "description": "Browser automation for competitive analysis and testing",
+      "capabilities": [
+        "Navigate to websites",
+        "Take screenshots",
+        "Interact with page elements",
+        "Extract content and analyze UX",
+        "Test mobile responsiveness",
+        "Measure performance metrics"
+      ]
+    }
+  }
+}
