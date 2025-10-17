@@ -1,25 +1,25 @@
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b">
+      <header className="bg-card shadow-sm border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-4">
               <div className="flex-shrink-0">
-                <h1 className="text-2xl font-bold text-indigo-600">Discover</h1>
+                <h1 className="text-2xl font-bold text-accent">Discover</h1>
               </div>
               <nav className="hidden md:flex space-x-8">
-                <a href="#" className="text-gray-900 hover:text-indigo-600">Buy</a>
-                <a href="#" className="text-gray-900 hover:text-indigo-600">Rent</a>
-                <a href="#" className="text-gray-900 hover:text-indigo-600">Agents</a>
-                <a href="#" className="text-gray-900 hover:text-indigo-600">Insights</a>
+                <a href="#" className="text-foreground hover:text-accent transition-colors">Buy</a>
+                <a href="#" className="text-foreground hover:text-accent transition-colors">Rent</a>
+                <a href="#" className="text-foreground hover:text-accent transition-colors">Agents</a>
+                <a href="#" className="text-foreground hover:text-accent transition-colors">Insights</a>
               </nav>
             </div>
             <div className="flex items-center space-x-4">
-              <button className="text-gray-700 hover:text-indigo-600">Sign In</button>
-              <button className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">
+              <button className="text-foreground hover:text-accent transition-colors">Sign In</button>
+              <button className="btn-primary px-4 py-2 rounded-lg">
                 For Agents
               </button>
             </div>
@@ -30,37 +30,37 @@ export default function Home() {
       {/* Hero Section */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
             Find Your Perfect Home with
-            <span className="text-indigo-600"> AI-Powered Search</span>
+            <span className="text-accent"> AI-Powered Search</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-body mb-8 max-w-3xl mx-auto">
             Australia&apos;s most intelligent property marketplace. Search naturally, discover personally, 
             and make smarter decisions with our AI assistant.
           </p>
         </div>
 
         {/* Search Interface */}
-        <div className="bg-white rounded-2xl shadow-xl p-8 mb-12">
+        <div className="card-rw rounded-2xl shadow-xl p-8 mb-12">
           <div className="max-w-4xl mx-auto">
             <div className="mb-6">
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-foreground mb-2">
                 Try natural language search:
               </label>
               <div className="relative">
                 <input
                   type="text"
                   placeholder="&quot;3 bedroom house near good schools in Melbourne under $800k with a backyard&quot;"
-                  className="w-full px-6 py-4 text-lg border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                  className="w-full px-6 py-4 text-lg border border-border rounded-xl focus:ring-2 focus:ring-accent focus:border-accent bg-background text-foreground"
                 />
-                <button className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700">
+                <button className="absolute right-3 top-1/2 transform -translate-y-1/2 btn-primary px-6 py-2 rounded-lg">
                   Search
                 </button>
               </div>
             </div>
             
             <div className="flex flex-wrap gap-2 mb-4">
-              <span className="text-sm text-gray-500">Try:</span>
+              <span className="text-sm text-muted-foreground">Try:</span>
               {[
                 "Family homes near parks",
                 "Modern apartments with city views",
@@ -69,7 +69,7 @@ export default function Home() {
               ].map((suggestion, i) => (
                 <button
                   key={i}
-                  className="text-sm bg-gray-100 hover:bg-gray-200 px-3 py-1 rounded-full text-gray-700"
+                  className="text-sm bg-secondary hover:bg-muted px-3 py-1 rounded-full text-secondary-foreground transition-colors"
                 >
                   {suggestion}
                 </button>
@@ -97,32 +97,32 @@ export default function Home() {
               icon: "📊"
             }
           ].map((feature, i) => (
-            <div key={i} className="bg-white rounded-xl p-6 shadow-lg">
+            <div key={i} className="card-rw rounded-xl p-6 shadow-lg">
               <div className="text-4xl mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+              <h3 className="text-subheading font-semibold mb-2">{feature.title}</h3>
+              <p className="text-body">{feature.description}</p>
             </div>
           ))}
         </div>
 
         {/* Status Section */}
-        <div className="bg-white rounded-xl p-8 shadow-lg">
+        <div className="card-rw rounded-xl p-8 shadow-lg">
           <div className="text-center">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            <h2 className="text-page-heading font-bold mb-4">
               Development Status
             </h2>
             <div className="flex justify-center items-center space-x-2 mb-4">
-              <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-              <span className="text-lg font-medium text-green-600">Phase 1 Complete</span>
+              <div className="w-3 h-3 bg-accent rounded-full"></div>
+              <span className="text-lg font-medium text-accent">Phase 1 Complete</span>
             </div>
-            <p className="text-gray-600 mb-6">
+            <p className="text-body mb-6">
               Foundation setup complete with Next.js 14, AI infrastructure, and competitive analysis tools.
               Ready for Phase 2: Core Map Search Experience.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left max-w-4xl mx-auto">
               <div>
-                <h3 className="font-semibold text-gray-900 mb-2">✅ Completed</h3>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <h3 className="font-semibold text-foreground mb-2">✅ Completed</h3>
+                <ul className="text-sm text-body space-y-1">
                   <li>• Next.js 14 + TypeScript setup</li>
                   <li>• OpenAI + LangChain integration</li>
                   <li>• PostgreSQL + PostGIS database</li>
@@ -131,8 +131,8 @@ export default function Home() {
                 </ul>
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900 mb-2">🔄 Next Phase</h3>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <h3 className="font-semibold text-foreground mb-2">🔄 Next Phase</h3>
+                <ul className="text-sm text-body space-y-1">
                   <li>• Interactive map with Mapbox</li>
                   <li>• Natural language search</li>
                   <li>• Property listing system</li>
@@ -146,21 +146,21 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 mt-20">
+      <footer className="bg-foreground text-background py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4">Discover Real Estate</h3>
-            <p className="text-gray-400 mb-6">
+            <p className="text-muted-foreground mb-6">
               Australia&apos;s most intelligent property marketplace
             </p>
             <div className="flex justify-center space-x-6">
-              <a href="https://github.com/zumu-g/discover_property" className="text-gray-400 hover:text-white">
+              <a href="https://github.com/zumu-g/discover_property" className="text-muted-foreground hover:text-background transition-colors">
                 GitHub
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="#" className="text-muted-foreground hover:text-background transition-colors">
                 Documentation
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="#" className="text-muted-foreground hover:text-background transition-colors">
                 Contact
               </a>
             </div>
