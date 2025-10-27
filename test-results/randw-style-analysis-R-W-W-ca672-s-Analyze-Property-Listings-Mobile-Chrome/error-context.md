@@ -1,0 +1,452 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation:
+      - generic:
+        - link "Richardson and Wrench Real Estate Agents Sydney NSW" [ref=e3] [cursor=pointer]:
+          - /url: https://www.randw.com.au/
+          - img "Richardson and Wrench Real Estate Agents Sydney NSW" [ref=e4]
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - button " Buy" [ref=e8] [cursor=pointer]:
+              - generic [ref=e9]: 
+              - generic [ref=e10]: Buy
+          - listitem [ref=e11]:
+            - button " Rent" [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 
+              - generic [ref=e14]: Rent
+          - listitem [ref=e15]:
+            - button " Sell" [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+              - generic [ref=e18]: Sell
+          - listitem [ref=e19]:
+            - button " Manage" [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: 
+              - generic [ref=e22]: Manage
+          - listitem [ref=e23]:
+            - button " More" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 
+              - generic [ref=e26]: More
+  - main [ref=e27]:
+    - generic [ref=e31]:
+      - group "1 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always." [level=2]
+          - generic:
+            - img "4762787-cropped.jpg"
+      - group "2 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always. Seen." [level=2]:
+              - text: Forever Always.
+              - text: Seen.
+          - generic:
+            - img "02.jpg"
+      - group "3 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always. Great." [level=2]:
+              - text: Forever Always.
+              - text: Great.
+          - generic:
+            - img "03.jpg"
+      - group "4 / 8" [ref=e32]:
+        - generic [ref=e33]:
+          - heading "Forever Always. Evolving." [level=2] [ref=e35]:
+            - text: Forever Always.
+            - text: Evolving.
+          - img "04.jpg" [ref=e37]
+      - group "5 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always. Our Promise." [level=2]:
+              - text: Forever Always.
+              - text: Our Promise.
+          - generic:
+            - img "05.jpg"
+      - group "6 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always. Yours." [level=2]:
+              - text: Forever Always.
+              - text: Yours.
+          - generic:
+            - img "06.jpg"
+      - group "7 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always. Wonderful." [level=2]:
+              - text: Forever Always.
+              - text: Wonderful.
+          - generic:
+            - img "07.jpg"
+      - group "8 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always. Ahead." [level=2]:
+              - text: Forever Always.
+              - text: Ahead.
+          - generic:
+            - img "08.jpg"
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43] [cursor=pointer]: Sell
+        - generic [ref=e44] [cursor=pointer]: Buy
+        - generic [ref=e45] [cursor=pointer]: Rent
+      - table [ref=e49]:
+        - rowgroup [ref=e50]:
+          - row "Get today's property estimate" [ref=e51]:
+            - cell [ref=e52]:
+              - textbox "To start your selling journey enter your address here..." [ref=e54]
+            - cell "Get today's property estimate" [ref=e55]:
+              - link "Get today's property estimate" [ref=e56] [cursor=pointer]:
+                - /url: "#"
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - group "1 / 3" [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e63]: This is Richardson&Wrench
+            - heading "Whether you’re planting roots, dreaming of your next chapter, or simply drawn to the rhythm of this city—we’re glad you’ve arrived. We’re here for you—now, forever, always." [level=2] [ref=e64]
+        - group "2 / 3" [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]: Super professional, effectively powerful.
+            - heading "We bring clarity to complexity, and strength to strategy. With professionalism you can feel—and results you can measure. Considered. Confident. Impactful. That’s how we do real estate." [level=2] [ref=e68]
+        - group "3 / 3" [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: Heritage-focused.
+            - heading "What was true 160 years ago remains today—built on reputation, proud in service, steadfast in trust. From first contact to final result, your success is ours." [level=2] [ref=e72]
+      - generic:
+        - button "Previous slide" [ref=e73] [cursor=pointer]: 
+        - button "Next slide" [ref=e74] [cursor=pointer]: 
+    - generic [ref=e75]:
+      - generic [ref=e78]:
+        - group "1 / 7" [ref=e79]:
+          - link "Arlie Hintz" [ref=e81] [cursor=pointer]:
+            - /url: /staff-profiles/5555-arlie-hintz.html
+            - img "Arlie Hintz" [ref=e82]
+        - group "2 / 7" [ref=e83]:
+          - link "Liza Venardos" [ref=e85] [cursor=pointer]:
+            - /url: /staff-profiles/5307-liza-venardos.html
+            - img "Liza Venardos" [ref=e86]
+        - group "3 / 7" [ref=e87]:
+          - link "Eya Roxas" [ref=e89] [cursor=pointer]:
+            - /url: /staff-profiles/2333-eya-roxas.html
+            - img "Eya Roxas" [ref=e90]
+        - group "4 / 7" [ref=e91]:
+          - link "Andrew Cocks" [ref=e93] [cursor=pointer]:
+            - /url: /staff-profiles/2332-andrew-cocks.html
+            - img "Andrew Cocks" [ref=e94]
+        - group "5 / 7" [ref=e95]:
+          - link "Aaron Tao" [ref=e97] [cursor=pointer]:
+            - /url: /staff-profiles/5619-aaron-tao.html
+            - img "Aaron Tao" [ref=e98]
+        - group "6 / 7" [ref=e99]:
+          - link "Adam Burke" [ref=e101] [cursor=pointer]:
+            - /url: /staff-profiles/5637-adam-burke.html
+            - img "Adam Burke" [ref=e102]
+        - group "7 / 7" [ref=e103]:
+          - link "Christina Xydis" [ref=e105] [cursor=pointer]:
+            - /url: /staff-profiles/2680-christina-xydis.html
+            - img "Christina Xydis" [ref=e106]
+      - link "Find your agent →" [ref=e109] [cursor=pointer]:
+        - /url: /find-an-agent.html
+        - table [ref=e111]:
+          - rowgroup [ref=e112]:
+            - row "Find your agent →" [ref=e113]:
+              - cell "Find your agent →" [ref=e114]:
+                - generic [ref=e115]: Find your agent →
+              - cell [ref=e116]
+    - generic [ref=e120]:
+      - heading "Properties on the radar" [level=2] [ref=e124]
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - group "NaN / 18" [ref=e128]:
+            - generic [ref=e130]:
+              - link "10/10 Lincoln Crescent" [ref=e131] [cursor=pointer]:
+                - /url: /property/10-10-lincoln-crescent-woolloomooloo-0000527899.html
+                - img "10/10 Lincoln Crescent" [ref=e132]
+              - generic [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: 10/10 Lincoln Crescent Woolloomooloo
+                - generic [ref=e135]: Auction
+                - generic [ref=e136]: 
+              - text:  
+          - group "NaN / 18" [ref=e137]:
+            - generic [ref=e139]:
+              - link "3/8 Fullerton Street" [ref=e140] [cursor=pointer]:
+                - /url: /property/3-8-fullerton-street-woollahra-0000528208.html
+                - img "3/8 Fullerton Street" [ref=e141]
+              - generic [ref=e142] [cursor=pointer]:
+                - generic [ref=e143]: 3/8 Fullerton Street Woollahra
+                - generic [ref=e144]: Auction | Jason Taylor 0412 757 470
+                - generic [ref=e145]: 
+              - text:  
+          - group "NaN / 18" [ref=e146]:
+            - generic [ref=e148]:
+              - link "3/535-537 New South Head Road" [ref=e149] [cursor=pointer]:
+                - /url: /property/3-535-537-new-south-head-road-double-bay-0000528233.html
+                - img "3/535-537 New South Head Road" [ref=e150]
+              - generic [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]: 3/535-537 New South Head Road Double Bay
+                - generic [ref=e153]: AUCTION
+                - generic [ref=e154]: 
+              - text:  
+          - group "NaN / 18" [ref=e155]:
+            - generic [ref=e157]:
+              - link "41/20-22 Springfield Avenue" [ref=e158] [cursor=pointer]:
+                - /url: /property/41-20-22-springfield-avenue-potts-point-0000528260.html
+                - img "41/20-22 Springfield Avenue" [ref=e159]
+              - generic [ref=e160] [cursor=pointer]:
+                - generic [ref=e161]: 41/20-22 Springfield Avenue Potts Point
+                - generic [ref=e162]: Auction
+                - generic [ref=e163]: 
+              - text:  
+          - group "NaN / 18" [ref=e164]:
+            - generic [ref=e166]:
+              - link "23 Tolkien Place" [ref=e167] [cursor=pointer]:
+                - /url: /property/23-tolkien-place-coolum-beach-0000524225.html
+                - img "23 Tolkien Place" [ref=e168]
+              - generic [ref=e169] [cursor=pointer]:
+                - generic [ref=e170]: 23 Tolkien Place Coolum Beach
+                - generic [ref=e171]: Offers Over $1,650,000
+                - generic [ref=e172]: 
+              - text:  
+          - group "NaN / 18" [ref=e173]:
+            - generic [ref=e175]:
+              - link "1/49 Blair Street" [ref=e176] [cursor=pointer]:
+                - /url: /property/1-49-blair-street-bondi-beach-0000528224.html
+                - img "1/49 Blair Street" [ref=e177]
+              - generic [ref=e178] [cursor=pointer]:
+                - generic [ref=e179]: 1/49 Blair Street Bondi Beach
+                - generic [ref=e180]: Pre Market Opportunity | Ian Wallace 0416 251 073
+                - generic [ref=e181]: 
+              - text:  
+          - group "NaN / 18" [ref=e182]:
+            - generic [ref=e184]:
+              - link "1 Kippax Place" [ref=e185] [cursor=pointer]:
+                - /url: /property/1-kippax-place-st-clair-0000528269.html
+                - img "1 Kippax Place" [ref=e186]
+              - generic [ref=e187] [cursor=pointer]:
+                - generic [ref=e188]: 1 Kippax Place St Clair
+                - generic [ref=e189]: $1,299,000 - $1,359,000
+                - generic [ref=e190]: 
+              - text:  
+          - group "NaN / 18" [ref=e191]:
+            - generic [ref=e193]:
+              - link "1 Kippax Place" [ref=e194] [cursor=pointer]:
+                - /url: /property/1-kippax-place-st-clair-0000528268.html
+                - img "1 Kippax Place" [ref=e195]
+              - generic [ref=e196] [cursor=pointer]:
+                - generic [ref=e197]: 1 Kippax Place St Clair
+                - generic [ref=e198]: $1,299,000 - $1,359,000
+                - generic [ref=e199]: 
+              - text:  
+          - group "NaN / 18" [ref=e200]:
+            - generic [ref=e202]:
+              - link "10 Court Road" [ref=e203] [cursor=pointer]:
+                - /url: /property/10-court-road-fairfield-0000507160.html
+                - img "10 Court Road" [ref=e204]
+              - generic [ref=e205] [cursor=pointer]:
+                - generic [ref=e206]: 10 Court Road Fairfield
+                - generic [ref=e207]: (2 Beds From $660,000) (3 Beds From $820,000)
+                - generic [ref=e208]: 
+              - text:  
+          - group "NaN / 18" [ref=e209]:
+            - generic [ref=e211]:
+              - link "35/1 Albany Street" [ref=e212] [cursor=pointer]:
+                - /url: /property/35-1-albany-street-st-leonards-0000527963.html
+                - img "35/1 Albany Street" [ref=e213]
+              - generic [ref=e214] [cursor=pointer]:
+                - generic [ref=e215]: 35/1 Albany Street St Leonards
+                - generic [ref=e216]: Auction
+                - generic [ref=e217]: 
+              - text:  
+          - group "NaN / 18" [ref=e218]:
+            - generic [ref=e220]:
+              - link "84 Churchill Avenue" [ref=e221] [cursor=pointer]:
+                - /url: /property/84-churchill-avenue-strathfield-0000527465.html
+                - img "84 Churchill Avenue" [ref=e222]
+              - generic [ref=e223] [cursor=pointer]:
+                - generic [ref=e224]: 84 Churchill Avenue Strathfield
+                - generic [ref=e225]: Guide $3.6m. Auction 1 November at 1pm
+                - generic [ref=e226]: 
+              - text:  
+          - group "NaN / 18" [ref=e227]:
+            - generic [ref=e229]:
+              - link "106/1 Post Office Street" [ref=e230] [cursor=pointer]:
+                - /url: /property/106-1-post-office-street-carlingford-0000511364.html
+                - img "106/1 Post Office Street" [ref=e231]
+              - generic [ref=e232] [cursor=pointer]:
+                - generic [ref=e233]: 106/1 Post Office Street Carlingford
+                - generic [ref=e234]: 2Bed + Study $739,000
+                - generic [ref=e235]: 
+              - text:  
+          - group "NaN / 18" [ref=e236]:
+            - generic [ref=e238]:
+              - link "295 CONCORD ROAD" [ref=e239] [cursor=pointer]:
+                - /url: /property/295-concord-road-concord-west-0000527894.html
+                - img "295 CONCORD ROAD" [ref=e240]
+              - generic [ref=e241] [cursor=pointer]:
+                - generic [ref=e242]: 295 CONCORD ROAD Concord West
+                - generic [ref=e243]: AUCTION
+                - generic [ref=e244]: 
+              - text:  
+          - group "NaN / 18" [ref=e245]:
+            - generic [ref=e247]:
+              - link "59/6 Quamby Place" [ref=e248] [cursor=pointer]:
+                - /url: /property/59-6-quamby-place-noosa-heads-0000526979.html
+                - img "59/6 Quamby Place" [ref=e249]
+              - generic [ref=e250] [cursor=pointer]:
+                - generic [ref=e251]: 59/6 Quamby Place Noosa Heads
+                - generic [ref=e252]: Price Guide $2.5Million
+                - generic [ref=e253]: 
+              - text:  
+          - group "NaN / 18" [ref=e254]:
+            - generic [ref=e256]:
+              - link "5 Bullus Place Boxers Creek" [ref=e257] [cursor=pointer]:
+                - /url: /property/5-bullus-place-boxers-creek-goulburn-0000502874.html
+                - img "5 Bullus Place Boxers Creek" [ref=e258]
+              - generic [ref=e259] [cursor=pointer]:
+                - generic [ref=e260]: 5 Bullus Place Boxers Creek Goulburn
+                - generic [ref=e261]: $2,600,000
+                - generic [ref=e262]: 
+              - text:  
+          - group "NaN / 18" [ref=e263]:
+            - generic [ref=e265]:
+              - link "23/9-17 Newton" [ref=e266] [cursor=pointer]:
+                - /url: /property/23-9-17-newton-alexandria-0000528266.html
+                - img "23/9-17 Newton" [ref=e267]
+              - generic [ref=e268] [cursor=pointer]:
+                - generic [ref=e269]: 23/9-17 Newton Alexandria
+                - generic [ref=e270]: Auction | Contact Agent
+                - generic [ref=e271]: 
+              - text:  
+          - group "NaN / 18" [ref=e272]:
+            - generic [ref=e274]:
+              - link "1803/180 Ocean Street" [ref=e275] [cursor=pointer]:
+                - /url: /property/1803-180-ocean-street-edgecliff-0000517684.html
+                - img "1803/180 Ocean Street" [ref=e276]
+              - generic [ref=e277] [cursor=pointer]:
+                - generic [ref=e278]: 1803/180 Ocean Street Edgecliff
+                - generic [ref=e279]: AUCTION
+                - generic [ref=e280]: 
+              - text:  
+          - group "NaN / 18" [ref=e281]:
+            - generic [ref=e283]:
+              - link "4/3 Woodstock Street" [ref=e284] [cursor=pointer]:
+                - /url: /property/4-3-woodstock-street-bondi-junction-0000525292.html
+                - img "4/3 Woodstock Street" [ref=e285]
+              - generic [ref=e286] [cursor=pointer]:
+                - generic [ref=e287]: 4/3 Woodstock Street Bondi Junction
+                - generic [ref=e288]: For Sale | Jason Taylor 0412 757 470
+                - generic [ref=e289]: 
+              - text:  
+        - button "Previous slide" [ref=e290] [cursor=pointer]: 
+        - button "Next slide" [ref=e291] [cursor=pointer]: 
+    - generic [ref=e294] [cursor=pointer]:
+      - link:
+        - /url: /franchise-opportunities.html
+      - link [ref=e295]:
+        - /url: /franchise-opportunities.html
+      - generic [ref=e296]:
+        - link "Ready to grow?" [ref=e297]:
+          - /url: /franchise-opportunities.html
+          - heading "Ready to grow?" [level=3] [ref=e298]
+        - link " Find out more" [ref=e299]:
+          - /url: /franchise-opportunities.html
+    - generic [ref=e300]:
+      - generic:
+        - generic [ref=e302]:
+          - generic [ref=e306]: FAQ
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - group "1 / 7" [ref=e312]:
+                - generic [ref=e313]:
+                  - heading "Do I need to be there for open homes or inspections?" [level=2] [ref=e314]
+                  - heading "Not at all. We’ll handle everything professionally, respecting your time and space while ensuring buyers feel welcome and informed." [level=4] [ref=e315]
+              - group "2 / 7" [ref=e316]:
+                - generic [ref=e317]:
+                  - heading "How should I prepare my home for sale?" [level=2] [ref=e318]
+                  - heading "Presentation matters. From minor touch-ups to expert styling, we’ll guide you on how to showcase your home in its best light—inside and out." [level=4] [ref=e319]
+              - group "3 / 7" [ref=e320]:
+                - generic [ref=e321]:
+                  - heading "What should I look for in a real estate agent?" [level=2] [ref=e322]
+                  - heading "Experience, communication, and local knowledge count. You want someone who listens, guides you with honesty, and knows how to get results—now and always." [level=4] [ref=e323]
+              - group "4 / 7" [ref=e324]:
+                - generic [ref=e325]:
+                  - heading "What’s a property appraisal, and why does it matter?" [level=2] [ref=e326]
+                  - heading "A professional appraisal gives you a clear understanding of your home’s current market value—an essential first step in planning your sale with confidence." [level=4] [ref=e327]
+              - group "5 / 7" [ref=e328]:
+                - generic [ref=e329]:
+                  - heading "When’s the right time to sell?" [level=2] [ref=e330]
+                  - heading "The ‘perfect’ time depends on your property, your goals, and the market. We’ll help you weigh the factors and decide what works best for you." [level=4] [ref=e331]
+              - group "6 / 7" [ref=e332]:
+                - generic [ref=e333]:
+                  - heading "Will I need to pay Stamp Duty?" [level=2] [ref=e334]
+                  - heading "Stamp Duty usually applies to buyers, but rules can vary. We can connect you with trusted legal and financial advisors to make sure everything’s covered." [level=4] [ref=e335]
+              - group "7 / 7" [ref=e336]:
+                - generic [ref=e337]:
+                  - heading "‘What’s the best way to market my property?’" [level=2] [ref=e338]
+                  - heading "The best marketing strategy is one that’s tailored—to your home, your audience, and the current market. It’s not about ticking boxes; it’s about standing out where it matters. That means combining strong digital reach with compelling visuals, authentic storytelling, and targeted strategy. If you’re thinking about selling Talk to us today." [level=4] [ref=e339]
+            - generic:
+              - button "Previous slide" [ref=e340] [cursor=pointer]: 
+              - button "Next slide" [ref=e341] [cursor=pointer]: 
+        - generic [ref=e343]:
+          - generic [ref=e347]: DON’T MISS A MOMENT.
+          - generic [ref=e352]:
+            - heading "Sign up for updates tailored to you." [level=2] [ref=e353]
+            - heading "Subscribe for the latest listings, property results, podcast releases, and insider updates from R&W." [level=4] [ref=e354]
+            - textbox "Email Address" [ref=e355]
+            - generic [ref=e356] [cursor=pointer]: 
+  - contentinfo [ref=e357]:
+    - generic [ref=e360]:
+      - link "Richardson and Wrench Real Estate Agents Sydney NSW" [ref=e361] [cursor=pointer]:
+        - /url: https://www.randw.com.au/
+        - img "Richardson and Wrench Real Estate Agents Sydney NSW" [ref=e362]
+      - generic [ref=e364]:
+        - link "" [ref=e365] [cursor=pointer]:
+          - /url: https://www.facebook.com/richardsonandwrench/
+        - link "" [ref=e366] [cursor=pointer]:
+          - /url: https://twitter.com/randwaustralia
+        - link "" [ref=e367] [cursor=pointer]:
+          - /url: https://au.linkedin.com/company/richardson-&-wrench-national-hq
+        - link "" [ref=e368] [cursor=pointer]:
+          - /url: https://www.youtube.com/user/randwTV
+        - link "" [ref=e369] [cursor=pointer]:
+          - /url: https://plus.google.com/+RichardsonWrenchHeadOfficeSydney
+        - link "" [ref=e370] [cursor=pointer]:
+          - /url: https://instagram.com/richardsonandwrench/
+    - navigation [ref=e372]:
+      - list [ref=e373]:
+        - listitem [ref=e374]:
+          - heading "Buy" [level=4] [ref=e375]:
+            - button "Buy" [ref=e376] [cursor=pointer]
+        - listitem [ref=e377]:
+          - heading "Rent" [level=4] [ref=e378]:
+            - button "Rent" [ref=e379] [cursor=pointer]
+        - listitem [ref=e380]:
+          - heading "Sell" [level=4] [ref=e381]:
+            - button "Sell" [ref=e382] [cursor=pointer]
+        - listitem [ref=e383]:
+          - heading "Manage" [level=4] [ref=e384]:
+            - button "Manage" [ref=e385] [cursor=pointer]
+        - listitem [ref=e386]:
+          - heading "Careers" [level=4] [ref=e387]:
+            - button "Careers" [ref=e388] [cursor=pointer]
+        - listitem [ref=e389]:
+          - heading "Insights" [level=4] [ref=e390]:
+            - button "Insights" [ref=e391] [cursor=pointer]
+        - listitem [ref=e392]:
+          - heading "Find" [level=4] [ref=e393]:
+            - button "Find" [ref=e394] [cursor=pointer]
+    - generic [ref=e395]:
+      - generic [ref=e396]: © 2025 Richardson & Wrench
+      - generic [ref=e397]:
+        - link "R&W Core Web Login" [ref=e398] [cursor=pointer]:
+          - /url: https://admin.coreweb.com.au
+        - text: "|"
+        - link "Privacy Policy" [ref=e399] [cursor=pointer]:
+          - /url: /privacy-policy.html
+```

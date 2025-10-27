@@ -1,0 +1,774 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - list [ref=e5]:
+          - listitem [ref=e6]:
+            - link "Buy" [ref=e7] [cursor=pointer]:
+              - /url: /property-for-sale.html
+          - listitem [ref=e8]:
+            - link "Rent" [ref=e9] [cursor=pointer]:
+              - /url: /property-for-lease.html
+          - listitem [ref=e10]:
+            - link "Sell" [ref=e11] [cursor=pointer]:
+              - /url: /sell.html
+          - listitem [ref=e12]:
+            - link "Manage" [ref=e13] [cursor=pointer]:
+              - /url: /find-a-property-manager.html
+        - link "Richardson and Wrench Real Estate Agents Sydney NSW" [ref=e14] [cursor=pointer]:
+          - /url: https://www.randw.com.au/
+          - img "Richardson and Wrench Real Estate Agents Sydney NSW" [ref=e15]
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "Careers" [ref=e18] [cursor=pointer]:
+              - /url: /careers.html
+          - listitem [ref=e19]:
+            - link "Insights" [ref=e20] [cursor=pointer]:
+              - /url: /buying.html
+          - listitem [ref=e21]:
+            - link "Find" [ref=e22] [cursor=pointer]:
+              - /url: "https://www.randw.com.au/contact-us.html "
+      - text:        
+  - main [ref=e23]:
+    - generic [ref=e27]:
+      - group "1 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always." [level=2]
+          - generic:
+            - img "4762787-cropped.jpg"
+      - group "2 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always. Seen." [level=2]:
+              - text: Forever Always.
+              - text: Seen.
+          - generic:
+            - img "02.jpg"
+      - group "3 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always. Great." [level=2]:
+              - text: Forever Always.
+              - text: Great.
+          - generic:
+            - img "03.jpg"
+      - group "4 / 8" [ref=e28]:
+        - generic [ref=e29]:
+          - heading "Forever Always. Evolving." [level=2] [ref=e31]:
+            - text: Forever Always.
+            - text: Evolving.
+          - img "04.jpg" [ref=e33]
+      - group "5 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always. Our Promise." [level=2]:
+              - text: Forever Always.
+              - text: Our Promise.
+          - generic:
+            - img "05.jpg"
+      - group "6 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always. Yours." [level=2]:
+              - text: Forever Always.
+              - text: Yours.
+          - generic:
+            - img "06.jpg"
+      - group "7 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always. Wonderful." [level=2]:
+              - text: Forever Always.
+              - text: Wonderful.
+          - generic:
+            - img "07.jpg"
+      - group "8 / 8":
+        - generic:
+          - generic:
+            - heading "Forever Always. Ahead." [level=2]:
+              - text: Forever Always.
+              - text: Ahead.
+          - generic:
+            - img "08.jpg"
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37] [cursor=pointer]: Sell
+        - generic [ref=e38] [cursor=pointer]: Buy
+        - generic [ref=e39] [cursor=pointer]: Rent
+      - table [ref=e43]:
+        - rowgroup [ref=e44]:
+          - row "Get today's property estimate" [ref=e45]:
+            - cell [ref=e46]:
+              - textbox "To start your selling journey enter your address here..." [ref=e48]
+            - cell "Get today's property estimate" [ref=e49]:
+              - link "Get today's property estimate" [ref=e50] [cursor=pointer]:
+                - /url: "#"
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - group "1 / 3" [ref=e55]:
+          - generic [ref=e56]:
+            - generic [ref=e57]: This is Richardson&Wrench
+            - heading "Whether you’re planting roots, dreaming of your next chapter, or simply drawn to the rhythm of this city—we’re glad you’ve arrived. We’re here for you—now, forever, always." [level=2] [ref=e58]
+        - group "2 / 3" [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: Super professional, effectively powerful.
+            - heading "We bring clarity to complexity, and strength to strategy. With professionalism you can feel—and results you can measure. Considered. Confident. Impactful. That’s how we do real estate." [level=2] [ref=e62]
+        - group "3 / 3" [ref=e63]:
+          - generic [ref=e64]:
+            - generic [ref=e65]: Heritage-focused.
+            - heading "What was true 160 years ago remains today—built on reputation, proud in service, steadfast in trust. From first contact to final result, your success is ours." [level=2] [ref=e66]
+      - generic:
+        - button "Previous slide" [ref=e67] [cursor=pointer]: 
+        - button "Next slide" [ref=e68] [cursor=pointer]: 
+    - generic [ref=e69]:
+      - generic [ref=e72]:
+        - group "1 / 7" [ref=e73]:
+          - link "Arlie Hintz" [ref=e75] [cursor=pointer]:
+            - /url: /staff-profiles/5555-arlie-hintz.html
+            - img "Arlie Hintz" [ref=e76]
+        - group "2 / 7" [ref=e77]:
+          - link "Liza Venardos" [ref=e79] [cursor=pointer]:
+            - /url: /staff-profiles/5307-liza-venardos.html
+            - img "Liza Venardos" [ref=e80]
+        - group "3 / 7" [ref=e81]:
+          - link "Eya Roxas" [ref=e83] [cursor=pointer]:
+            - /url: /staff-profiles/2333-eya-roxas.html
+            - img "Eya Roxas" [ref=e84]
+        - group "4 / 7" [ref=e85]:
+          - link "Andrew Cocks" [ref=e87] [cursor=pointer]:
+            - /url: /staff-profiles/2332-andrew-cocks.html
+            - img "Andrew Cocks" [ref=e88]
+        - group "5 / 7" [ref=e89]:
+          - link "Aaron Tao" [ref=e91] [cursor=pointer]:
+            - /url: /staff-profiles/5619-aaron-tao.html
+            - img "Aaron Tao" [ref=e92]
+        - group "6 / 7" [ref=e93]:
+          - link "Adam Burke" [ref=e95] [cursor=pointer]:
+            - /url: /staff-profiles/5637-adam-burke.html
+            - img "Adam Burke" [ref=e96]
+        - group "7 / 7" [ref=e97]:
+          - link "Christina Xydis" [ref=e99] [cursor=pointer]:
+            - /url: /staff-profiles/2680-christina-xydis.html
+            - img "Christina Xydis" [ref=e100]
+      - link "Find your agent →" [ref=e103] [cursor=pointer]:
+        - /url: /find-an-agent.html
+        - table [ref=e105]:
+          - rowgroup [ref=e106]:
+            - row "Find your agent →" [ref=e107]:
+              - cell "Find your agent →" [ref=e108]:
+                - generic [ref=e109]: Find your agent →
+              - cell [ref=e110]
+    - generic [ref=e114]:
+      - generic [ref=e116]:
+        - heading "Properties on the radar" [level=2] [ref=e118]
+        - table [ref=e121]:
+          - rowgroup [ref=e122]:
+            - row "For sale For rent Sold" [ref=e123]:
+              - cell [ref=e124]
+              - cell "For sale" [ref=e126]:
+                - link "For sale" [ref=e127] [cursor=pointer]:
+                  - /url: /property-for-sale.html
+              - cell "For rent" [ref=e128]:
+                - link "For rent" [ref=e129] [cursor=pointer]:
+                  - /url: /property-for-lease.html
+              - cell "Sold" [ref=e130]:
+                - link "Sold" [ref=e131] [cursor=pointer]:
+                  - /url: /property-sold.html
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - group "NaN / 18" [ref=e135]:
+            - generic [ref=e137]:
+              - link "10/10 Lincoln Crescent" [ref=e138] [cursor=pointer]:
+                - /url: /property/10-10-lincoln-crescent-woolloomooloo-0000527899.html
+                - img "10/10 Lincoln Crescent" [ref=e139]
+              - generic [ref=e140] [cursor=pointer]:
+                - generic [ref=e141]: 10/10 Lincoln Crescent Woolloomooloo
+                - generic [ref=e142]: Auction
+                - generic [ref=e143]: 
+              - generic:
+                - link "10/10 Lincoln Crescent Woolloomooloo Auction A premium harbourside sanctuary of space, light, and style, this expansive 4 bedroom (or 3 bedrooms + study) residence offers luxury Sydney living directly on the waterfront at... 4  3  2  View Saturday 18 October 10:00am ":
+                  - /url: /property/10-10-lincoln-crescent-woolloomooloo-0000527899.html
+                  - generic: 10/10 Lincoln Crescent Woolloomooloo
+                  - generic: Auction
+                  - generic: A premium harbourside sanctuary of space, light, and style, this expansive 4 bedroom (or 3 bedrooms + study) residence offers luxury Sydney living directly on the waterfront at...
+                  - generic: 4 
+                  - generic: 3 
+                  - generic: 2 
+                  - generic: View Saturday 18 October 10:00am
+                  - generic: 
+          - group "NaN / 18" [ref=e144]:
+            - generic [ref=e146]:
+              - link "3/8 Fullerton Street" [ref=e147] [cursor=pointer]:
+                - /url: /property/3-8-fullerton-street-woollahra-0000528208.html
+                - img "3/8 Fullerton Street" [ref=e148]
+              - generic [ref=e149] [cursor=pointer]:
+                - generic [ref=e150]: 3/8 Fullerton Street Woollahra
+                - generic [ref=e151]: Auction | Jason Taylor 0412 757 470
+                - generic [ref=e152]: 
+              - generic:
+                - link "3/8 Fullerton Street Woollahra Auction | Jason Taylor 0412 757 470 Set peacefully on the ground floor of landmark building Piccadilly Gardens, this bright 2-bedroom apartment presents a fantastic opportunity in the heart of Woollahra's... 2  1  View Saturday 18 October 11:15am ":
+                  - /url: /property/3-8-fullerton-street-woollahra-0000528208.html
+                  - generic: 3/8 Fullerton Street Woollahra
+                  - generic: Auction | Jason Taylor 0412 757 470
+                  - generic: Set peacefully on the ground floor of landmark building Piccadilly Gardens, this bright 2-bedroom apartment presents a fantastic opportunity in the heart of Woollahra's...
+                  - generic: 2 
+                  - generic: 1 
+                  - generic: View Saturday 18 October 11:15am
+                  - generic: 
+          - group "NaN / 18" [ref=e153]:
+            - generic [ref=e155]:
+              - link "3/535-537 New South Head Road" [ref=e156] [cursor=pointer]:
+                - /url: /property/3-535-537-new-south-head-road-double-bay-0000528233.html
+                - img "3/535-537 New South Head Road" [ref=e157]
+              - generic [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]: 3/535-537 New South Head Road Double Bay
+                - generic [ref=e160]: AUCTION
+                - generic [ref=e161]: 
+              - generic:
+                - link "3/535-537 New South Head Road Double Bay AUCTION Merging elegant contemporary design with high-end finishes, this oversized 2-bedroom apartment offers pristine modern living with seamless indoor/outdoor appeal, and a... 2  2  2  View Saturday 18 October 10:00am ":
+                  - /url: /property/3-535-537-new-south-head-road-double-bay-0000528233.html
+                  - generic: 3/535-537 New South Head Road Double Bay
+                  - generic: AUCTION
+                  - generic: Merging elegant contemporary design with high-end finishes, this oversized 2-bedroom apartment offers pristine modern living with seamless indoor/outdoor appeal, and a...
+                  - generic: 2 
+                  - generic: 2 
+                  - generic: 2 
+                  - generic: View Saturday 18 October 10:00am
+                  - generic: 
+          - group "NaN / 18" [ref=e162]:
+            - generic [ref=e164]:
+              - link "41/20-22 Springfield Avenue" [ref=e165] [cursor=pointer]:
+                - /url: /property/41-20-22-springfield-avenue-potts-point-0000528260.html
+                - img "41/20-22 Springfield Avenue" [ref=e166]
+              - generic [ref=e167] [cursor=pointer]:
+                - generic [ref=e168]: 41/20-22 Springfield Avenue Potts Point
+                - generic [ref=e169]: Auction
+                - generic [ref=e170]: 
+              - generic:
+                - link "41/20-22 Springfield Avenue Potts Point Auction Set within the landmark Art Deco building 'Sandringham', this studio is a rare offering in the heart of Potts Point. In completely original condition, it presents a... 1  View Saturday 18 October 1:00pm ":
+                  - /url: /property/41-20-22-springfield-avenue-potts-point-0000528260.html
+                  - generic: 41/20-22 Springfield Avenue Potts Point
+                  - generic: Auction
+                  - generic: Set within the landmark Art Deco building 'Sandringham', this studio is a rare offering in the heart of Potts Point. In completely original condition, it presents a...
+                  - generic: 1 
+                  - generic: View Saturday 18 October 1:00pm
+                  - generic: 
+          - group "NaN / 18" [ref=e171]:
+            - generic [ref=e173]:
+              - link "23 Tolkien Place" [ref=e174] [cursor=pointer]:
+                - /url: /property/23-tolkien-place-coolum-beach-0000524225.html
+                - img "23 Tolkien Place" [ref=e175]
+              - generic [ref=e176] [cursor=pointer]:
+                - generic [ref=e177]: 23 Tolkien Place Coolum Beach
+                - generic [ref=e178]: Offers Over $1,650,000
+                - generic [ref=e179]: 
+              - generic:
+                - link "23 Tolkien Place Coolum Beach Offers Over $1,650,000 Located in a tightly held cul-de-sac in a discreet area of Coolum Beach, this light-filled and modern family home is one of a kind. Situated on an elevated 601sqm block and... 4  2  3  View Saturday 18 October 10:00am ":
+                  - /url: /property/23-tolkien-place-coolum-beach-0000524225.html
+                  - generic: 23 Tolkien Place Coolum Beach
+                  - generic: Offers Over $1,650,000
+                  - generic: Located in a tightly held cul-de-sac in a discreet area of Coolum Beach, this light-filled and modern family home is one of a kind. Situated on an elevated 601sqm block and...
+                  - generic: 4 
+                  - generic: 2 
+                  - generic: 3 
+                  - generic: View Saturday 18 October 10:00am
+                  - generic: 
+          - group "NaN / 18" [ref=e180]:
+            - generic [ref=e182]:
+              - link "1/49 Blair Street" [ref=e183] [cursor=pointer]:
+                - /url: /property/1-49-blair-street-bondi-beach-0000528224.html
+                - img "1/49 Blair Street" [ref=e184]
+              - generic [ref=e185] [cursor=pointer]:
+                - generic [ref=e186]: 1/49 Blair Street Bondi Beach
+                - generic [ref=e187]: Pre Market Opportunity | Ian Wallace 0416 251 073
+                - generic [ref=e188]: 
+              - generic:
+                - link "1/49 Blair Street Bondi Beach Pre Market Opportunity | Ian Wallace 0416 251 073 A gorgeous semi-like beach pad minutes to the sands of Bondi Beach, this 2-bedroom haven exudes classic coastal vibes in a coveted location. Set on the ground floor of a... 2  1  View Saturday 18 October 9:00am ":
+                  - /url: /property/1-49-blair-street-bondi-beach-0000528224.html
+                  - generic: 1/49 Blair Street Bondi Beach
+                  - generic: Pre Market Opportunity | Ian Wallace 0416 251 073
+                  - generic: A gorgeous semi-like beach pad minutes to the sands of Bondi Beach, this 2-bedroom haven exudes classic coastal vibes in a coveted location. Set on the ground floor of a...
+                  - generic: 2 
+                  - generic: 1 
+                  - generic: View Saturday 18 October 9:00am
+                  - generic: 
+          - group "NaN / 18" [ref=e189]:
+            - generic [ref=e191]:
+              - link "1 Kippax Place" [ref=e192] [cursor=pointer]:
+                - /url: /property/1-kippax-place-st-clair-0000528269.html
+                - img "1 Kippax Place" [ref=e193]
+              - generic [ref=e194] [cursor=pointer]:
+                - generic [ref=e195]: 1 Kippax Place St Clair
+                - generic [ref=e196]: $1,299,000 - $1,359,000
+                - generic [ref=e197]: 
+              - generic:
+                - link "1 Kippax Place St Clair $1,299,000 - $1,359,000 OPEN FOR INSPECTION SATURDAY 18TH OF OCTOBER 2025 FROM 2:30PM TO 3:00PM David Frendo of Richardson & Wrench St Clair & Erskine Park proudly presents this 4 bedroom... 4  1  2  View Saturday 18 October 2:30pm ":
+                  - /url: /property/1-kippax-place-st-clair-0000528269.html
+                  - generic: 1 Kippax Place St Clair
+                  - generic: $1,299,000 - $1,359,000
+                  - generic: OPEN FOR INSPECTION SATURDAY 18TH OF OCTOBER 2025 FROM 2:30PM TO 3:00PM David Frendo of Richardson & Wrench St Clair & Erskine Park proudly presents this 4 bedroom...
+                  - generic: 4 
+                  - generic: 1 
+                  - generic: 2 
+                  - generic: View Saturday 18 October 2:30pm
+                  - generic: 
+          - group "NaN / 18" [ref=e198]:
+            - generic [ref=e200]:
+              - link "1 Kippax Place" [ref=e201] [cursor=pointer]:
+                - /url: /property/1-kippax-place-st-clair-0000528268.html
+                - img "1 Kippax Place" [ref=e202]
+              - generic [ref=e203] [cursor=pointer]:
+                - generic [ref=e204]: 1 Kippax Place St Clair
+                - generic [ref=e205]: $1,299,000 - $1,359,000
+                - generic [ref=e206]: 
+              - generic:
+                - link "1 Kippax Place St Clair $1,299,000 - $1,359,000 OPEN FOR INSPECTION SATURDAY 18TH OF OCTOBER 2025 FROM 2:30PM TO 3:00PM David Frendo of Richardson & Wrench St Clair & Erskine Park proudly presents this 4 bedroom... 4  1  2  View Saturday 18 October 2:30pm ":
+                  - /url: /property/1-kippax-place-st-clair-0000528268.html
+                  - generic: 1 Kippax Place St Clair
+                  - generic: $1,299,000 - $1,359,000
+                  - generic: OPEN FOR INSPECTION SATURDAY 18TH OF OCTOBER 2025 FROM 2:30PM TO 3:00PM David Frendo of Richardson & Wrench St Clair & Erskine Park proudly presents this 4 bedroom...
+                  - generic: 4 
+                  - generic: 1 
+                  - generic: 2 
+                  - generic: View Saturday 18 October 2:30pm
+                  - generic: 
+          - group "NaN / 18" [ref=e207]:
+            - generic [ref=e209]:
+              - link "10 Court Road" [ref=e210] [cursor=pointer]:
+                - /url: /property/10-court-road-fairfield-0000507160.html
+                - img "10 Court Road" [ref=e211]
+              - generic [ref=e212] [cursor=pointer]:
+                - generic [ref=e213]: 10 Court Road Fairfield
+                - generic [ref=e214]: (2 Beds From $660,000) (3 Beds From $820,000)
+                - generic [ref=e215]: 
+              - generic:
+                - link "10 Court Road Fairfield (2 Beds From $660,000) (3 Beds From $820,000) Step into the heart of Fairfield, where a world of convenience and lifestyle awaits. Discover a range of 2 and 3 bedrooms apartments that blend style with practical living... 2  2  1  View Saturday 18 October 10:00am ":
+                  - /url: /property/10-court-road-fairfield-0000507160.html
+                  - generic: 10 Court Road Fairfield
+                  - generic: (2 Beds From $660,000) (3 Beds From $820,000)
+                  - generic: Step into the heart of Fairfield, where a world of convenience and lifestyle awaits. Discover a range of 2 and 3 bedrooms apartments that blend style with practical living...
+                  - generic: 2 
+                  - generic: 2 
+                  - generic: 1 
+                  - generic: View Saturday 18 October 10:00am
+                  - generic: 
+          - group "NaN / 18" [ref=e216]:
+            - generic [ref=e218]:
+              - link "35/1 Albany Street" [ref=e219] [cursor=pointer]:
+                - /url: /property/35-1-albany-street-st-leonards-0000527963.html
+                - img "35/1 Albany Street" [ref=e220]
+              - generic [ref=e221] [cursor=pointer]:
+                - generic [ref=e222]: 35/1 Albany Street St Leonards
+                - generic [ref=e223]: Auction
+                - generic [ref=e224]: 
+              - generic:
+                - link "35/1 Albany Street St Leonards Auction With two living rooms, two bathrooms, study nook, a generous private rooftop terrace with water views, storage galore and undercover parking for a car and a motorcycle, the... 1  2  1  View Saturday 18 October 1:00pm ":
+                  - /url: /property/35-1-albany-street-st-leonards-0000527963.html
+                  - generic: 35/1 Albany Street St Leonards
+                  - generic: Auction
+                  - generic: With two living rooms, two bathrooms, study nook, a generous private rooftop terrace with water views, storage galore and undercover parking for a car and a motorcycle, the...
+                  - generic: 1 
+                  - generic: 2 
+                  - generic: 1 
+                  - generic: View Saturday 18 October 1:00pm
+                  - generic: 
+          - group "NaN / 18" [ref=e225]:
+            - generic [ref=e227]:
+              - link "84 Churchill Avenue" [ref=e228] [cursor=pointer]:
+                - /url: /property/84-churchill-avenue-strathfield-0000527465.html
+                - img "84 Churchill Avenue" [ref=e229]
+              - generic [ref=e230] [cursor=pointer]:
+                - generic [ref=e231]: 84 Churchill Avenue Strathfield
+                - generic [ref=e232]: Guide $3.6m. Auction 1 November at 1pm
+                - generic [ref=e233]: 
+              - generic:
+                - link "84 Churchill Avenue Strathfield Guide $3.6m. Auction 1 November at 1pm A rare opportunity in one of Strathfield's most sought-after addresses. Beautiful timeless charm, 'Curraweena' stands proudly on Churchill Avenue, sprawling... 4  2  4  View Saturday 18 October 12:30pm ":
+                  - /url: /property/84-churchill-avenue-strathfield-0000527465.html
+                  - generic: 84 Churchill Avenue Strathfield
+                  - generic: Guide $3.6m. Auction 1 November at 1pm
+                  - generic: A rare opportunity in one of Strathfield's most sought-after addresses. Beautiful timeless charm, 'Curraweena' stands proudly on Churchill Avenue, sprawling...
+                  - generic: 4 
+                  - generic: 2 
+                  - generic: 4 
+                  - generic: View Saturday 18 October 12:30pm
+                  - generic: 
+          - group "NaN / 18" [ref=e234]:
+            - generic [ref=e236]:
+              - link "106/1 Post Office Street" [ref=e237] [cursor=pointer]:
+                - /url: /property/106-1-post-office-street-carlingford-0000511364.html
+                - img "106/1 Post Office Street" [ref=e238]
+              - generic [ref=e239] [cursor=pointer]:
+                - generic [ref=e240]: 106/1 Post Office Street Carlingford
+                - generic [ref=e241]: 2Bed + Study $739,000
+                - generic [ref=e242]: 
+              - generic:
+                - link "106/1 Post Office Street Carlingford 2Bed + Study $739,000 Discover stylish, low-maintenance living in this spacious apartment situated just steps from Carlingford Court, popular eateries, leafy parks, and excellent transport links... 2  2  1  View Saturday 18 October 11:30am ":
+                  - /url: /property/106-1-post-office-street-carlingford-0000511364.html
+                  - generic: 106/1 Post Office Street Carlingford
+                  - generic: 2Bed + Study $739,000
+                  - generic: Discover stylish, low-maintenance living in this spacious apartment situated just steps from Carlingford Court, popular eateries, leafy parks, and excellent transport links...
+                  - generic: 2 
+                  - generic: 2 
+                  - generic: 1 
+                  - generic: View Saturday 18 October 11:30am
+                  - generic: 
+          - group "NaN / 18" [ref=e243]:
+            - generic [ref=e245]:
+              - link "295 CONCORD ROAD" [ref=e246] [cursor=pointer]:
+                - /url: /property/295-concord-road-concord-west-0000527894.html
+                - img "295 CONCORD ROAD" [ref=e247]
+              - generic [ref=e248] [cursor=pointer]:
+                - generic [ref=e249]: 295 CONCORD ROAD Concord West
+                - generic [ref=e250]: AUCTION
+                - generic [ref=e251]: 
+              - generic:
+                - link "295 CONCORD ROAD Concord West AUCTION Set in one of Concord West's most desirable pockets, this substantial 1,113m² block with 18.28m frontage offers an exceptional opportunity for families or investors... 3  2  4  View Saturday 18 October 11:00am ":
+                  - /url: /property/295-concord-road-concord-west-0000527894.html
+                  - generic: 295 CONCORD ROAD Concord West
+                  - generic: AUCTION
+                  - generic: Set in one of Concord West's most desirable pockets, this substantial 1,113m² block with 18.28m frontage offers an exceptional opportunity for families or investors...
+                  - generic: 3 
+                  - generic: 2 
+                  - generic: 4 
+                  - generic: View Saturday 18 October 11:00am
+                  - generic: 
+          - group "NaN / 18" [ref=e252]:
+            - generic [ref=e254]:
+              - link "59/6 Quamby Place" [ref=e255] [cursor=pointer]:
+                - /url: /property/59-6-quamby-place-noosa-heads-0000526979.html
+                - img "59/6 Quamby Place" [ref=e256]
+              - generic [ref=e257] [cursor=pointer]:
+                - generic [ref=e258]: 59/6 Quamby Place Noosa Heads
+                - generic [ref=e259]: Price Guide $2.5Million
+                - generic [ref=e260]: 
+              - generic:
+                - link "59/6 Quamby Place Noosa Heads Price Guide $2.5Million Perfectly positioned on the prestigious Noosa Sound, this north-facing, waterfront apartment offers 180-degree panoramic views of the sparkling Noosa River and lush... 2  1  1  View Saturday 25 October 11:30am ":
+                  - /url: /property/59-6-quamby-place-noosa-heads-0000526979.html
+                  - generic: 59/6 Quamby Place Noosa Heads
+                  - generic: Price Guide $2.5Million
+                  - generic: Perfectly positioned on the prestigious Noosa Sound, this north-facing, waterfront apartment offers 180-degree panoramic views of the sparkling Noosa River and lush...
+                  - generic: 2 
+                  - generic: 1 
+                  - generic: 1 
+                  - generic: View Saturday 25 October 11:30am
+                  - generic: 
+          - group "NaN / 18" [ref=e261]:
+            - generic [ref=e263]:
+              - link "5 Bullus Place Boxers Creek" [ref=e264] [cursor=pointer]:
+                - /url: /property/5-bullus-place-boxers-creek-goulburn-0000502874.html
+                - img "5 Bullus Place Boxers Creek" [ref=e265]
+              - generic [ref=e266] [cursor=pointer]:
+                - generic [ref=e267]: 5 Bullus Place Boxers Creek Goulburn
+                - generic [ref=e268]: $2,600,000
+                - generic [ref=e269]: 
+              - generic:
+                - link "5 Bullus Place Boxers Creek Goulburn $2,600,000 Proudly presented to the market, an idyllic luxury estate, new four-bedroom, three-bathroom, situated on 24 acres and nestled into a private valley with spectacular views. In a... 4  3  12  View By Appointment ":
+                  - /url: /property/5-bullus-place-boxers-creek-goulburn-0000502874.html
+                  - generic: 5 Bullus Place Boxers Creek Goulburn
+                  - generic: $2,600,000
+                  - generic: Proudly presented to the market, an idyllic luxury estate, new four-bedroom, three-bathroom, situated on 24 acres and nestled into a private valley with spectacular views. In a...
+                  - generic: 4 
+                  - generic: 3 
+                  - generic: 12 
+                  - generic: View By Appointment
+                  - generic: 
+          - group "NaN / 18" [ref=e270]:
+            - generic [ref=e272]:
+              - link "23/9-17 Newton" [ref=e273] [cursor=pointer]:
+                - /url: /property/23-9-17-newton-alexandria-0000528266.html
+                - img "23/9-17 Newton" [ref=e274]
+              - generic [ref=e275] [cursor=pointer]:
+                - generic [ref=e276]: 23/9-17 Newton Alexandria
+                - generic [ref=e277]: Auction | Contact Agent
+                - generic [ref=e278]: 
+              - generic:
+                - link "23/9-17 Newton Alexandria Auction | Contact Agent Positioned in the heart of the sought after Golden Triangle this this well-presented apartment delivers a low-maintenance lifestyle retreat and an affordable entry into the... 1  1  View By Appointment ":
+                  - /url: /property/23-9-17-newton-alexandria-0000528266.html
+                  - generic: 23/9-17 Newton Alexandria
+                  - generic: Auction | Contact Agent
+                  - generic: Positioned in the heart of the sought after Golden Triangle this this well-presented apartment delivers a low-maintenance lifestyle retreat and an affordable entry into the...
+                  - generic: 1 
+                  - generic: 1 
+                  - generic: View By Appointment
+                  - generic: 
+          - group "NaN / 18" [ref=e279]:
+            - generic [ref=e281]:
+              - link "1803/180 Ocean Street" [ref=e282] [cursor=pointer]:
+                - /url: /property/1803-180-ocean-street-edgecliff-0000517684.html
+                - img "1803/180 Ocean Street" [ref=e283]
+              - generic [ref=e284] [cursor=pointer]:
+                - generic [ref=e285]: 1803/180 Ocean Street Edgecliff
+                - generic [ref=e286]: AUCTION
+                - generic [ref=e287]: 
+              - generic:
+                - link "1803/180 Ocean Street Edgecliff AUCTION Celebrate the magnificence of Sydney harbour all year round from the comfort of this sprawling sub-penthouse in the coveted Eastpoint Tower, a Mirvac-built icon offering... 2  2  2  View Saturday 18 October 1:15pm ":
+                  - /url: /property/1803-180-ocean-street-edgecliff-0000517684.html
+                  - generic: 1803/180 Ocean Street Edgecliff
+                  - generic: AUCTION
+                  - generic: Celebrate the magnificence of Sydney harbour all year round from the comfort of this sprawling sub-penthouse in the coveted Eastpoint Tower, a Mirvac-built icon offering...
+                  - generic: 2 
+                  - generic: 2 
+                  - generic: 2 
+                  - generic: View Saturday 18 October 1:15pm
+                  - generic: 
+          - group "NaN / 18" [ref=e288]:
+            - generic [ref=e290]:
+              - link "4/3 Woodstock Street" [ref=e291] [cursor=pointer]:
+                - /url: /property/4-3-woodstock-street-bondi-junction-0000525292.html
+                - img "4/3 Woodstock Street" [ref=e292]
+              - generic [ref=e293] [cursor=pointer]:
+                - generic [ref=e294]: 4/3 Woodstock Street Bondi Junction
+                - generic [ref=e295]: For Sale | Jason Taylor 0412 757 470
+                - generic [ref=e296]: 
+              - generic:
+                - link "4/3 Woodstock Street Bondi Junction For Sale | Jason Taylor 0412 757 470 A wonderful haven in a convenient and connected setting, radiant living awaits at this 2-bedroom apartment, just minutes from both Bondi Junction and Bondi Beach. Set on the... 2  1  2  View Saturday 18 October 10:00am ":
+                  - /url: /property/4-3-woodstock-street-bondi-junction-0000525292.html
+                  - generic: 4/3 Woodstock Street Bondi Junction
+                  - generic: For Sale | Jason Taylor 0412 757 470
+                  - generic: A wonderful haven in a convenient and connected setting, radiant living awaits at this 2-bedroom apartment, just minutes from both Bondi Junction and Bondi Beach. Set on the...
+                  - generic: 2 
+                  - generic: 1 
+                  - generic: 2 
+                  - generic: View Saturday 18 October 10:00am
+                  - generic: 
+        - button "Previous slide" [ref=e297] [cursor=pointer]: 
+        - button "Next slide" [ref=e298] [cursor=pointer]: 
+    - generic [ref=e301] [cursor=pointer]:
+      - link:
+        - /url: /franchise-opportunities.html
+      - link [ref=e302]:
+        - /url: /franchise-opportunities.html
+      - generic [ref=e303]:
+        - link "Ready to grow? Whether you’re setting up a traditional office or launching a bespoke agency, Richardson" [ref=e304]:
+          - /url: /franchise-opportunities.html
+          - heading "Ready to grow?" [level=3] [ref=e305]
+          - generic [ref=e306]: Whether you’re setting up a traditional office or launching a bespoke agency, Richardson
+        - link " Find out more" [ref=e307]:
+          - /url: /franchise-opportunities.html
+    - generic [ref=e308]:
+      - generic:
+        - generic [ref=e310]:
+          - generic [ref=e314]: FAQ
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - group "1 / 7" [ref=e320]:
+                - generic [ref=e321]:
+                  - heading "Do I need to be there for open homes or inspections?" [level=2] [ref=e322]
+                  - heading "Not at all. We’ll handle everything professionally, respecting your time and space while ensuring buyers feel welcome and informed." [level=4] [ref=e323]
+              - group "2 / 7" [ref=e324]:
+                - generic [ref=e325]:
+                  - heading "How should I prepare my home for sale?" [level=2] [ref=e326]
+                  - heading "Presentation matters. From minor touch-ups to expert styling, we’ll guide you on how to showcase your home in its best light—inside and out." [level=4] [ref=e327]
+              - group "3 / 7" [ref=e328]:
+                - generic [ref=e329]:
+                  - heading "What should I look for in a real estate agent?" [level=2] [ref=e330]
+                  - heading "Experience, communication, and local knowledge count. You want someone who listens, guides you with honesty, and knows how to get results—now and always." [level=4] [ref=e331]
+              - group "4 / 7" [ref=e332]:
+                - generic [ref=e333]:
+                  - heading "What’s a property appraisal, and why does it matter?" [level=2] [ref=e334]
+                  - heading "A professional appraisal gives you a clear understanding of your home’s current market value—an essential first step in planning your sale with confidence." [level=4] [ref=e335]
+              - group "5 / 7" [ref=e336]:
+                - generic [ref=e337]:
+                  - heading "When’s the right time to sell?" [level=2] [ref=e338]
+                  - heading "The ‘perfect’ time depends on your property, your goals, and the market. We’ll help you weigh the factors and decide what works best for you." [level=4] [ref=e339]
+              - group "6 / 7" [ref=e340]:
+                - generic [ref=e341]:
+                  - heading "Will I need to pay Stamp Duty?" [level=2] [ref=e342]
+                  - heading "Stamp Duty usually applies to buyers, but rules can vary. We can connect you with trusted legal and financial advisors to make sure everything’s covered." [level=4] [ref=e343]
+              - group "7 / 7" [ref=e344]:
+                - generic [ref=e345]:
+                  - heading "‘What’s the best way to market my property?’" [level=2] [ref=e346]
+                  - heading "The best marketing strategy is one that’s tailored—to your home, your audience, and the current market. It’s not about ticking boxes; it’s about standing out where it matters. That means combining strong digital reach with compelling visuals, authentic storytelling, and targeted strategy. If you’re thinking about selling Talk to us today." [level=4] [ref=e347]
+            - generic:
+              - button "Previous slide" [ref=e348] [cursor=pointer]: 
+              - button "Next slide" [ref=e349] [cursor=pointer]: 
+        - generic [ref=e351]:
+          - generic [ref=e355]: DON’T MISS A MOMENT.
+          - generic [ref=e360]:
+            - heading "Sign up for updates tailored to you." [level=2] [ref=e361]
+            - heading "Subscribe for the latest listings, property results, podcast releases, and insider updates from R&W." [level=4] [ref=e362]
+            - textbox "Email Address" [ref=e363]
+            - generic [ref=e364] [cursor=pointer]: 
+  - contentinfo [ref=e365]:
+    - generic [ref=e368]:
+      - link "Richardson and Wrench Real Estate Agents Sydney NSW" [ref=e369] [cursor=pointer]:
+        - /url: https://www.randw.com.au/
+        - img "Richardson and Wrench Real Estate Agents Sydney NSW" [ref=e370]
+      - generic [ref=e372]:
+        - link "" [ref=e373] [cursor=pointer]:
+          - /url: https://www.facebook.com/richardsonandwrench/
+        - link "" [ref=e374] [cursor=pointer]:
+          - /url: https://twitter.com/randwaustralia
+        - link "" [ref=e375] [cursor=pointer]:
+          - /url: https://au.linkedin.com/company/richardson-&-wrench-national-hq
+        - link "" [ref=e376] [cursor=pointer]:
+          - /url: https://www.youtube.com/user/randwTV
+        - link "" [ref=e377] [cursor=pointer]:
+          - /url: https://plus.google.com/+RichardsonWrenchHeadOfficeSydney
+        - link "" [ref=e378] [cursor=pointer]:
+          - /url: https://instagram.com/richardsonandwrench/
+    - navigation [ref=e380]:
+      - list [ref=e381]:
+        - listitem [ref=e382]:
+          - heading "Buy" [level=4] [ref=e383]:
+            - button "Buy" [ref=e384] [cursor=pointer]
+          - list [ref=e385]:
+            - listitem [ref=e386]:
+              - link "Search properties for sale" [ref=e387] [cursor=pointer]:
+                - /url: /property-for-sale.html
+            - listitem [ref=e388]:
+              - link "Business for sale" [ref=e389] [cursor=pointer]:
+                - /url: /businesses-for-sale.html
+            - listitem [ref=e390]:
+              - link "Open for inspection" [ref=e391] [cursor=pointer]:
+                - /url: /open-for-inspection.html
+            - listitem [ref=e392]:
+              - link "Forthcoming auctions" [ref=e393] [cursor=pointer]:
+                - /url: /auctions.html
+            - listitem [ref=e394]:
+              - link "Livestream Auctions" [ref=e395] [cursor=pointer]:
+                - /url: /livestream-auctions.html
+            - listitem [ref=e396]:
+              - link "Recent sales" [ref=e397] [cursor=pointer]:
+                - /url: /property-sold.html
+            - listitem [ref=e398]:
+              - link "Projects" [ref=e399] [cursor=pointer]:
+                - /url: /projects.html
+            - listitem [ref=e400]:
+              - link "Off market properties" [ref=e401] [cursor=pointer]:
+                - /url: /offmarketproperties.html
+            - listitem [ref=e402]:
+              - link "Our neighbourhoods" [ref=e403] [cursor=pointer]:
+                - /url: /our-neighbourhood.html
+        - listitem [ref=e404]:
+          - heading "Rent" [level=4] [ref=e405]:
+            - button "Rent" [ref=e406] [cursor=pointer]
+          - list [ref=e407]:
+            - listitem [ref=e408]:
+              - link "Search properties for lease" [ref=e409] [cursor=pointer]:
+                - /url: /property-for-lease.html
+            - listitem [ref=e410]:
+              - link "Open for inspection" [ref=e411] [cursor=pointer]:
+                - /url: /rental-inspection.html
+            - listitem [ref=e412]:
+              - link "Recently leased" [ref=e413] [cursor=pointer]:
+                - /url: /property-leased.html
+        - listitem [ref=e414]:
+          - heading "Sell" [level=4] [ref=e415]:
+            - button "Sell" [ref=e416] [cursor=pointer]
+          - list [ref=e417]:
+            - listitem [ref=e418]:
+              - link "Recent sales" [ref=e419] [cursor=pointer]:
+                - /url: /property-sold.html
+            - listitem [ref=e420]:
+              - link "Request market appraisal" [ref=e421] [cursor=pointer]:
+                - /url: /market-appraisal.html
+            - listitem [ref=e422]:
+              - link "Schedule a Virtual Appraisal" [ref=e423] [cursor=pointer]:
+                - /url: /virtual-appraisal.html
+        - listitem [ref=e424]:
+          - heading "Manage" [level=4] [ref=e425]:
+            - button "Manage" [ref=e426] [cursor=pointer]
+          - list [ref=e427]:
+            - listitem [ref=e428]:
+              - link "Request market appraisal" [ref=e429] [cursor=pointer]:
+                - /url: /market-appraisal.html
+            - listitem [ref=e430]:
+              - link "Investment hints & tips" [ref=e431] [cursor=pointer]:
+                - /url: /investment-hints-tips.html
+            - listitem [ref=e432]:
+              - link "Landlord hints & tips" [ref=e433] [cursor=pointer]:
+                - /url: /landlord-hints-tips.html
+            - listitem [ref=e434]:
+              - link "Property management with us" [ref=e435] [cursor=pointer]:
+                - /url: /property-management.html
+            - listitem [ref=e436]:
+              - link "Tenant hints & tips" [ref=e437] [cursor=pointer]:
+                - /url: /tenant-hints-tips.html
+        - listitem [ref=e438]:
+          - heading "Careers" [level=4] [ref=e439]:
+            - button "Careers" [ref=e440] [cursor=pointer]
+          - list [ref=e441]:
+            - listitem [ref=e442]:
+              - link "Careers" [ref=e443] [cursor=pointer]:
+                - /url: /careers.html
+            - listitem [ref=e444]:
+              - link "Franchise opportunities" [ref=e445] [cursor=pointer]:
+                - /url: /franchise-opportunities.html
+            - listitem [ref=e446]:
+              - link "Career & business interests" [ref=e447] [cursor=pointer]:
+                - /url: https://www.randw.com.au/career-business-interests.html
+            - listitem [ref=e448]:
+              - link "What our people say" [ref=e449] [cursor=pointer]:
+                - /url: /testimonials.html
+        - listitem [ref=e450]:
+          - heading "Insights" [level=4] [ref=e451]:
+            - button "Insights" [ref=e452] [cursor=pointer]
+          - list [ref=e453]:
+            - listitem [ref=e454]:
+              - link "Our story" [ref=e455] [cursor=pointer]:
+                - /url: /our-story.html
+            - listitem [ref=e456]:
+              - link "Selling insights" [ref=e457] [cursor=pointer]:
+                - /url: /selling.html
+            - listitem [ref=e458]:
+              - link "Renting insights" [ref=e459] [cursor=pointer]:
+                - /url: /renting.html
+            - listitem [ref=e460]:
+              - link "Investing insights" [ref=e461] [cursor=pointer]:
+                - /url: /investing.html
+            - listitem [ref=e462]:
+              - link "Starlight Children's Foundation" [ref=e463] [cursor=pointer]:
+                - /url: /starlight.html
+            - listitem [ref=e464]:
+              - link "Shore Financial" [ref=e465] [cursor=pointer]:
+                - /url: https://www.randw.com.au/shore-financial.html
+            - listitem [ref=e466]:
+              - link "Connect your utilities" [ref=e467] [cursor=pointer]:
+                - /url: https://randwconnect.com.au/
+            - listitem [ref=e468]:
+              - link "Blog" [ref=e469] [cursor=pointer]:
+                - /url: /insights.html
+            - listitem [ref=e470]:
+              - link "In the media" [ref=e471] [cursor=pointer]:
+                - /url: /in-the-media.html
+            - listitem [ref=e472]:
+              - link "Home Loan Health Check" [ref=e473] [cursor=pointer]:
+                - /url: https://www.shorefinancial.com.au/loanhealth-randw/
+            - listitem [ref=e474]:
+              - link "Borrowing Capacity Calculator" [ref=e475] [cursor=pointer]:
+                - /url: https://www.shorefinancial.com.au/borrowingcapacity-randw/
+        - listitem [ref=e476]:
+          - heading "Find" [level=4] [ref=e477]:
+            - button "Find" [ref=e478] [cursor=pointer]
+          - list [ref=e479]:
+            - listitem [ref=e480]:
+              - link "Contact us" [ref=e481] [cursor=pointer]:
+                - /url: /contact-us.html
+            - listitem [ref=e482]:
+              - link "Find an office" [ref=e483] [cursor=pointer]:
+                - /url: /find-an-office.html
+            - listitem [ref=e484]:
+              - link "Find an agent" [ref=e485] [cursor=pointer]:
+                - /url: /find-an-agent.html
+            - listitem [ref=e486]:
+              - link "Website disclaimer" [ref=e487] [cursor=pointer]:
+                - /url: /disclaimer.html
+    - generic [ref=e488]:
+      - generic [ref=e489]:
+        - text: © 2025 Richardson & Wrench
+        - generic [ref=e490]:
+          - text: "|"
+          - link "Powered by coreweb" [ref=e491] [cursor=pointer]:
+            - /url: https://www.coreweb.com.au
+      - generic [ref=e492]:
+        - link "R&W Core Web Login" [ref=e493] [cursor=pointer]:
+          - /url: https://admin.coreweb.com.au
+        - text: "|"
+        - link "Privacy Policy" [ref=e494] [cursor=pointer]:
+          - /url: /privacy-policy.html
+```

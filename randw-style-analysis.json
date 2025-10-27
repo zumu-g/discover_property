@@ -1,0 +1,75 @@
+{
+  "typography": {
+    "fonts": [
+      "\"Manrope\", sans-serif",
+      "\"icomoon\""
+    ],
+    "fontSizes": [
+      "17px",
+      "96px",
+      "36px",
+      "21px",
+      "16px",
+      "34px",
+      "11.9px"
+    ],
+    "fontWeights": [
+      "100",
+      "200",
+      "400",
+      "300"
+    ],
+    "lineHeights": [
+      "25.5px",
+      "124.8px",
+      "44px",
+      "35px",
+      "34px",
+      "normal"
+    ]
+  },
+  "colors": {
+    "backgrounds": [
+      "rgb(247, 244, 234)"
+    ],
+    "textColors": [
+      "rgb(18, 29, 40)",
+      "rgb(255, 255, 255)",
+      "rgb(220, 30, 53)",
+      "rgb(247, 244, 234)"
+    ],
+    "borderColors": [],
+    "accentColors": []
+  },
+  "spacing": {
+    "margins": [
+      "0px 0px 30px",
+      "auto",
+      "0px 10px 0px 0px",
+      "25.5px auto 17px",
+      "0px 0px 0px 0%",
+      "1px"
+    ],
+    "paddings": [
+      "0px 8.5px",
+      "15px"
+    ],
+    "gaps": []
+  },
+  "layout": {
+    "containers": [],
+    "gridSystems": [],
+    "flexboxPatterns": []
+  },
+  "components": {
+    "buttons": [],
+    "cards": [],
+    "navigation": []
+  },
+  "breakpoints": {
+    "mobile": "",
+    "tablet": "",
+    "desktop": ""
+  },
+  "animations": []
+}
